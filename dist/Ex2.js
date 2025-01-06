@@ -61,7 +61,7 @@ class Customer {
         this.discount = discount;
     }
     toString() {
-        return `${this.name}(${this.id})(${this.discount})`;
+        return "name " + `${this.name}(${this.id})(${this.discount}%)`;
     }
 }
 exports.Customer = Customer;

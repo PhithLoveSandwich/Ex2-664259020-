@@ -82,7 +82,7 @@ class Customer {
     }
 
     public toString(): string {
-        return `${this.name}(${this.id})(${this.discount})`;
+        return "name " + `${this.name}(${this.id})(${this.discount}%)`;
     }
 }
 
